@@ -1,4 +1,4 @@
-# Traffic_Light_LEDs_SM
+# FSM_Four_LEDs
 Using Verilog, this code implements a state machine to switch between 4 states of LEDs repeatedly
 The LED controller is implemented as a 4‑state Moore FSM, where each state corresponds to exactly one LED being active. The FSM uses a synchronous state register updated on the rising edge of the clock and a separate combinational block that computes the next state and the LED outputs based only on the current state. A Verilog testbench generates a periodic clock, applies an initial reset, and then allows the FSM to advance through four clock cycles before stopping the simulation.
 
